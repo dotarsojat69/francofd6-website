@@ -17,7 +17,7 @@ const TextEffect = () => {
       ]}
       
       speed={50}
-      className="text-[2rem] md:text[3rem] text-[#78349f] font-bold uppercase"
+      className="text-sm md-text-lg lg:text-2xl text-[#78349f] font-bold uppercase"
       repeat={Infinity}
     />
   );
