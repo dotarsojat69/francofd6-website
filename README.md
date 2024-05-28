@@ -1,5 +1,4 @@
-<div align="center">
-  ## Minimalist Dev Portfolio
+## Minimalist Dev Portfolio
 
 Personal website and portfolio developed using Next.js, Tailwind CSS, and Aceternity UI.
 
@@ -12,7 +11,6 @@ Click [_here_]() for link.
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
     <img src="https://img.shields.io/badge/-Aceternity_UI-black?style=for-the-badge&logoColor=black&logo=aceternityui&color=FFA2BC" />
   </div>
-</div>
 
 ## <a name="introduction">🤖 Introduction</a>
 
