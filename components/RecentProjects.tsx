@@ -5,9 +5,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import Link from "next/link";
+import Section from "./Section";
 
 const RecentProjects = () => {
   return (
+    <Section>
     <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
@@ -19,14 +21,12 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] h-[25rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <Link
-            key={id}
-            href={href}>
             <PinContainer
               title={title}
               href={href}
             >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+              <Link key={id} href={href}>
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -38,6 +38,7 @@ const RecentProjects = () => {
                   alt="cover"
                   className="z-10 absolute bottom-0"
                 />
+              </Link>
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -70,18 +71,22 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
+                <Link
+                key={id}
+                href={href}>
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
+                  <FaLocationArrow className="ms-1 md:ms-2" color="#CBACF9" />
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </Link>
                 </div>
               </div>
             </PinContainer>
-            </Link>
           </div>
         ))}
       </div>
     </div>
+    </Section>
   );
 };
 
