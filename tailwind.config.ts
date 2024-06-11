@@ -40,7 +40,24 @@ const config = {
         },
         blue: {
           "100": "#E4ECFF",
-        },
+          },
+
+          n: {
+              1: "#FFFFFF",
+              2: "#CAC6DD",
+              3: "#ADA8C3",
+              4: "#757185",
+              5: "#3F3A52",
+              6: "#252134",
+              7: "#15131D",
+              8: "#0E0C15",
+              9: "#474060",
+              10: "#43435C",
+              11: "#1B1B2E",
+              12: "#2E2A41",
+              13: "#6C7275",
+            },
+
         purple: "#CBACF9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -159,6 +176,11 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      backgroundImage: {
+        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
+        "conic-gradient":
+          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
     },
   },

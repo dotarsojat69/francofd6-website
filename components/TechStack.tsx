@@ -2,6 +2,7 @@ import React from 'react'
 import Section from './Section'
 import TechRing from './TechRing';
 import TechCard from './TechCard';  
+import { SectionGradient } from './SectionGradient';
 
 const TechStack = () => {
   return (
@@ -40,6 +41,7 @@ const TechStack = () => {
                 },
               ]}
             />
+            <SectionGradient/>
             {/* Card 2 */}
             <TechCard
               heading="Libraries/Frameworks"
