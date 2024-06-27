@@ -19,22 +19,17 @@ const Hero = () => {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
     </div>
 
-    <div className='flex justify-center relative my-20 z-10'>
+    <div className='flex justify-center relative my-10 z-10'>
         <div className='max-w-[80vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-        <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Portofolio Web with Next.js
-          </p>
-
-            <TextGenerateEffect
-                className='text-center text-[40px] md:text-4xl lg:text-6xl'
-                words='Transforming Ideas into Effortless User Experiences'
-            />
-
             <p className='text-center md:tracking-wider mb-4 text-sm md-text-lg lg:text-2xl'>
                 Hi, I&apos;m <TextEffect />
             </p>
+            <TextGenerateEffect
+                className='text-justify text-[20px] md:text-xl lg:text-2xl'
+                words='Dedicated and skilled Frontend Developer with experience designing and developing user friendly interfaces. Proficient in HTML, CSS, JavaScript, Typescript, and various frameworks. Proven track record of creating responsive websites and web applications. Seeking a challenging role where I can utilize my expertise to contribute to a dynamic team and make a meaningful impact.'
+            />
 
-            <a href="#about">
+            <a href="#projects">
                 <MagicButton 
                 title="Show my work"
                 icon={<FaLocationArrow />}
