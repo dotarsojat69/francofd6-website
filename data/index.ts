@@ -167,8 +167,8 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Wordpress Engineer (Freelance)",
-      desc: "Manage and develop website for GMAHK Bendungan Hilir, make a migration from drupal to wordpress. Maintain and update website content regularly. Create and manage company profile website with wordpress, Create responsive website with wordpress",
+      title: "Junior Web Engineer(Wordpress)",
+      desc: "Create website company profile for PT Bumi Pandawa Nusantara with wordpress, create design for website. Maintain and update website content regularly. Create responsive website with wordpress",
       className: "md:col-span-2 text-justify",
       thumbnail: "/exp1.svg",
     },
